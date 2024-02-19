@@ -29,7 +29,7 @@ export default function Home({ result }) {
               key={data.title}
             >
               <h2>
-                {data.title} <span>-&gt;</span>
+                {data.title} 문서<span>-&gt;</span>
               </h2>
               <p> {data.content}</p>
             </a>
